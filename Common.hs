@@ -15,5 +15,5 @@ assertException ex action =
         assertFailure $ "Expected exception: " ++ show ex
     where isWanted = guard . (== ex)
 
-assertError :: String -> IO a -> IO ()
+assertError :: String -> a -> IO ()
 assertError ex f = assertException (ErrorCall ex) $ evaluate f
