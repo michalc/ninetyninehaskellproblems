@@ -1,4 +1,4 @@
-module Problem2 where
+module Problem02 where
 
 myButLast :: [a] -> a
 myButLast [] = error "No second last element of empty list"

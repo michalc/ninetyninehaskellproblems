@@ -1,6 +1,6 @@
-module Problem7Test where
+module Problem07Test where
 
-import Problem7
+import Problem07
 import Test.HUnit
 
 

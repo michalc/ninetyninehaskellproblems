@@ -1,4 +1,4 @@
-module Problem7 where
+module Problem07 where
 
 data NestedList a = Elem a | List [NestedList a]
 

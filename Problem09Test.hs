@@ -1,6 +1,6 @@
-module Problem9Test where
+module Problem09Test where
 
-import Problem9
+import Problem09
 import Test.HUnit
 
 packTest :: Test

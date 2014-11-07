@@ -1,4 +1,4 @@
-module Problem4 where
+module Problem04 where
 
 myLength :: [a] -> Int
 myLength [] = 0

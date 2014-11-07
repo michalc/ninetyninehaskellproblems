@@ -1,4 +1,4 @@
-module Problem1 where
+module Problem01 where
 
 myLast :: [a] -> a
 myLast [] = error "No last element of empty list"

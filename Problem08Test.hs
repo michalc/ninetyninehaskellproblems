@@ -1,6 +1,6 @@
-module Problem8Test where
+module Problem08Test where
 
-import Problem8
+import Problem08
 import Test.HUnit
 
 compressTest :: Test

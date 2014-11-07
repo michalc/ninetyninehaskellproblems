@@ -1,4 +1,4 @@
-module Problem8 where
+module Problem08 where
 
 compress :: Eq a => [a] -> [a]
 compress x = foldr compress' [] x

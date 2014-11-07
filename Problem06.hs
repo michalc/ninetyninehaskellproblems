@@ -1,4 +1,4 @@
-module Problem6 where
+module Problem06 where
 
 isPalindrome :: Eq a => [a] -> Bool
 isPalindrome x = firstHalf == secondHalfReversed
